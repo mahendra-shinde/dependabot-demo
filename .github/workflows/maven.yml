@@ -32,3 +32,12 @@ jobs:
       
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2
+    
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v3.1.0
+      with:
+        name: code-ql-db
+        path: /home/runner/work/_temp/codeql_databases/java.zip
+
+
+    
