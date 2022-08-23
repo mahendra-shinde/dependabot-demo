@@ -29,6 +29,6 @@
 	6. Now, you need to commit the changes (new/old maven project)		
 
 		```
-
+		 git remote add origin git@github.com:mahendra-shinde/dependabot-demo.git
 		```
 
